@@ -1,0 +1,45 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #d6bf93;
+    margin: 0%;
+ } 
+td{
+    padding: 20px;
+    border-style:solid;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    
+    border-collapse:collapse ;
+    box-shadow: px;
+}
+th{
+    background-color: aqua;
+}
+#vermelho{
+    color: rgb(233, 52, 52);
+}
+#Azul{
+    color: blue;
+}
+table{
+    border-radius: 100%;
+    position: relative;
+    right: -33%;
+}#table{
+    position: relative;
+    right: -58%;
+    top: -310px;
+    
+}
+.calendar{
+    left: 10%;
+}
+hr{
+    top: -100px;
+    margin: 0%;
+}

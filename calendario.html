@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="calendar.js"></script>
+    <link rel="stylesheet" href="calendar.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table class="calendar" id="calendar">
+      <thead>
+        <tr>
+          <th>Seg</th>
+          <th>Ter</th>
+          <th>Qua</th>
+          <th>Qui</th>
+          <th>Sex </th>
+          <th>Sab</th>
+          <th>Dom</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td id="Azul">4</td>
+          <td id="vermelho">5</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td id="Azul">11</td>
+          <td id="vermelho">12</td>
+
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td id="Azul">18</td>
+          <td id="vermelho">19</td>
+         
+       
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td id="Azul">25</td>
+          <td id="vermelho">26</td>
+        
+          
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>31</td>
+          <td></td>
+          <td></td>
+       
+          
+        </tr>
+      </tbody>
+      <h2>Tabela de Fretes</h2>
+
+<table id="table">
+  <tr id="tr">
+    <th id="th">Veículo</th>
+    <th id="th">Quantidade de Fretes</th>
+  </tr id="tr">
+  <tr>
+  </tr>
+  <tr>
+
+    <td id="td" class="verde" style="background-color: lightgreen;">Veículo 1</td>
+    <td id="td">1</td>
+  </tr >
+  <tr id="td">
+    <td class="azul" style="background-color: lightblue;">Veículo 2</td>
+    <td id="td">3</td>
+  </tr>
+  <tr id="tr">
+    <td id="td" class="rosa" style="background-color: lightpink;">Veículo 3</td>
+    <td id="td">3</td>
+  </tr>
+  <tr id="tr" >
+<td id="td" class="roxo" style="background-color: slateblue;">Veículo 4</td>
+<td id="td">3</td>
+  </tr>
+    </table>
+    
+    <hr/>
+    <label for="color">Escolha uma cor:</label>
+    <select id="color" name="color">
+        <option value="LightBlue">Azul</option>
+        <option value="PaleGreen">Verde</option>
+        <option value="LightPink">Rosa</option>
+        <option value="SlateBlue">Roxo</option>
+    </select>
+    <label for="day">Escolha o dia:</label>
+    <input type="number" id="day" name="day" min="1" max="31">
+    <input type="submit" onclick="colorirDia()"> 
+  <title>Tabela de Fretes</title>
+  <style>
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .th,.td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    .th {
+      background-color: lightgray;
+    }
+    .verde {
+      background-color: lightgreen;
+    }
+    .azul, .rosa, .roxo {
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+
+  <!-- Repita a estrutura das linhas para cada dia da semana -->
+ 
+</table>
+</body>
+</html>
